@@ -1,57 +1,28 @@
 # MahumTechAzureDemoApp
 
-MahumTechAzureDemoApp is a cloud-based e-commerce application built to showcase best-in-class development practices using Microsoft Azure. The application includes a web, mobile, and desktop client, all of which are built using modern technologies that make them scalable, secure, and user-friendly.
+MahumTechAzureDemoApp is a full-stack e-commerce application built on the Azure cloud platform, showcasing the latest Azure technologies and best practices. It includes a web, mobile, and desktop application, demonstrating scalability, security, and user-friendly e-commerce experiences.
 
 ## Getting Started
 
-To get started with the MahumTechAzureDemoApp project, you will need to have the following software installed:
+To get started with the MahumTechAzureDemoApp project, you will need an Azure subscription, Node.js, and Git installed on your system. You can clone the repository and follow the instructions in the README files located in each application directory.
 
-- Node.js
-- Git
-- Azure CLI
-- Visual Studio Code
+## Project Structure
 
-Once you have these installed, you can clone the MahumTechAzureDemoApp repository:
+The MahumTechAzureDemoApp project is organized into the following directories:
 
-git clone https://github.com/your-username/MahumTechAzureDemoApp.git
+- `web`: The web application built with React and Node.js.
+- `mobile`: The mobile application built with React Native and Expo.
+- `desktop`: The desktop application built with Electron and React.
 
-Then, you can navigate to the directory and install the necessary dependencies:
+Each directory contains a README file with more information about that particular application.
 
-cd MahumTechAzureDemoApp
-npm install
+## Limitations
 
-After the dependencies have been installed, you can start each app by running:
-
-npm start
-
-## Architecture
-
-The MahumTechAzureDemoApp is built using a microservices architecture, with each service hosted in a separate Azure resource. The services communicate with each other using Azure Service Bus and Azure Event Grid, allowing for real-time communication and scalability.
-
-The web application is built using React and Node.js and is hosted on Azure App Service, which provides a scalable and secure hosting solution.
-
-The mobile application is built using React Native and is hosted on Azure Mobile Apps, which provides a scalable and secure hosting solution for mobile applications.
-
-The desktop application is built using Electron and React and is hosted on Azure Virtual Desktop, which provides a scalable and secure hosting solution for desktop applications.
-
-## Features
-
-MahumTechAzureDemoApp includes the following features:
-
-- Product Catalog: Browse and search for products from multiple vendors
-- Shopping Cart: Add and remove items from your cart
-- Checkout: Securely checkout your items using Azure Payment Services
-- Order History: View past orders and track the status of current orders
-- Customer Reviews: Read and leave reviews for products
-- Recommendations: Get personalized recommendations based on past purchases and browsing history
-
-## Demo
-
-You can try out the MahumTechAzureDemoApp live demo by visiting https://mahumtechazure-demoapp.azurewebsites.net. This demo includes all of the features described above and uses a sample data set.
+Please note that due to cost considerations, the Azure resources used to host the MahumTechAzureDemoApp website may be occasionally shut down. In such cases, we recommend that you download and host the demo applications yourself to ensure they are always available.
 
 ## Contributing
 
-We welcome contributions to the MahumTechAzureDemoApp project! To contribute, please fork the repository and submit a pull request.
+We welcome contributions to the MahumTechAzureDemoApp project. To contribute, please fork the repository and submit a pull request.
 
 ## License
 
